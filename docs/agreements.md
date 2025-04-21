@@ -24,6 +24,11 @@ This document contains important agreements and conventions for the Web Student 
 - `node_modules/` - Dependencies
 - `.env` - Environment variables (use .env.example as template)
 
+### Authentication
+- GitHub personal access tokens are stored in `.env`
+- Never commit tokens to the repository
+- Token needs at least `repo` scope for full repository access
+
 ### Branching
 - Feature branches should be named `feature/[description]`
 - Each issue should have its own branch
@@ -31,6 +36,7 @@ This document contains important agreements and conventions for the Web Student 
 ## Environment Variables
 - `VITE_APP_NAME` - Application name
 - `VITE_APP_VERSION` - Application version
+- `GITHUB_TOKEN` - GitHub personal access token
 
 ## Development Workflow
 1. Create a feature branch for each issue
