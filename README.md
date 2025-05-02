@@ -61,3 +61,23 @@ To ensure consistency and best practices, always follow this procedure when work
 ---
 
 Feel free to expand or adjust this list as you learn more!
+
+---
+
+## Story Point Scale
+
+| Points | Description                                                                 | Typical Effort         | Example Task Type                |
+|--------|-----------------------------------------------------------------------------|------------------------|----------------------------------|
+| 0      | Trivial, negligible effort, almost no work                                  | < 15 minutes           | Typo fix, rewording a sentence   |
+| 1      | Very small, well-understood, no risk, no dependencies                       | 15 min – 1 hour        | Rename a variable, update config |
+| 2      | Small, straightforward, minor complexity, low risk                          | 1 – 2 hours            | Add a unit test, update docs     |
+| 3      | Moderate, some complexity, may require brief investigation or coordination  | 2 – 4 hours            | Refactor a function, small UI fix|
+| 5      | Significant, multiple steps, moderate complexity, some unknowns             | 4 – 8 hours (1 day)    | Implement a new feature, write several tests |
+| 8      | Large, complex, needs breaking down if possible, high uncertainty           | 1 – 2 days             | Integrate with external API, major refactor  |
+| 13+    | Too large to estimate, must be split into smaller tasks                     | > 2 days               | "Epic" or multi-feature work     |
+
+**Guidelines:**
+- Use the smallest value that fits the task.
+- If a task is >8 points, break it down.
+- All types of work (dev, design, docs, testing) are estimated.
+-"Done" means implemented and unit tested, but not necessarily reviewed or deployed.
