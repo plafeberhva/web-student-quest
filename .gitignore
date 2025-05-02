@@ -134,3 +134,16 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Dependencies
+node_modules/
+package-lock.json
+.pnp
+.pnp.js
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo

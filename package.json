@@ -1,0 +1,30 @@
+{
+  "name": "web-student-quest",
+  "version": "1.0.0",
+  "description": "Retro style adventure game, web based in Typescript",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "keywords": [
+    "game",
+    "typescript",
+    "retro",
+    "adventure"
+  ],
+  "author": "P. Lafeber",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "web-student-quest": "file:"
+  }
+}
