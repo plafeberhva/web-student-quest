@@ -5,7 +5,7 @@ const appContainer = document.getElementById('app');
 const config = {
     title: import.meta.env.VITE_APP_NAME || 'Web Student Quest',
     version: import.meta.env.VITE_APP_VERSION || '0.0.1',
-    description: 'Retro style adventure game'
+    description: 'Retro style adventure game by PCML'
 };
 
 // Create and render initial content
