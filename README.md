@@ -8,6 +8,24 @@ This project uses Cursor rules adapted from [Andre Ratzenberger's cursor-rules r
 This project's story was generated with the help of the [AI story generator]( https://generatestory.io/ai-game-story-generator/). 
 ---
 
+## Design Decisions
+
+For alignment between all parties involved, we will need a document containing all design decisions.
+
+Initial decision:
+
+1. Typescript architecture
+2. UI language English, with all strings stored in multi language tables.
+3. All project communication in English.
+4. Open source coding frameworks.
+5. Documentation in markdown, mermaid, svg and any other textual markup languages that can be maintained in Github.
+6. Design is done using UML and BPMN.
+7. Where possible, work is done following ISO standards for quality, software development, risk and security.
+8. Open stack publication.
+9. Testing framework for testing the code, using Mockito.
+10. Project structure using Github issues, with status "working" and "verifying", always maximum one person responsible for each issue.
+11. Issues always small enough so they can be completed in 1-2 days.
+
 ## Required Workflow for Making Changes
 
 To ensure consistency and best practices, always follow this procedure when working on this repository:
