@@ -5,6 +5,7 @@ Retro style adventure game, web based in Typescript.
 
 This project uses Cursor rules adapted from [Andre Ratzenberger's cursor-rules repository](https://github.com/AndreRatzenberger/cursor-rules/). Many thanks to Andre for making these comprehensive rules available to the community.
 
+This project's story was generated with the help of the [AI story generator]( https://generatestory.io/ai-game-story-generator/). 
 ---
 
 ## Required Workflow for Making Changes
