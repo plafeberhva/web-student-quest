@@ -13,7 +13,6 @@ erDiagram
         int id
         string name
         string description
-        bool is_inventory
     }
     
     OBJECT {
