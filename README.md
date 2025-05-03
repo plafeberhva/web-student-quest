@@ -10,24 +10,33 @@ This project's story was generated with the help of the [AI story generator]( ht
 
 ## Required Workflow for Making Changes
 
-To ensure consistency and best practices, always follow this procedure when working on this repository:
+To ensure consistency and best practices, always follow this procedure when working on this repository.
+**After each action, perform the corresponding check to confirm success before proceeding.**
 
 1. **Create a GitHub Issue**
-   - Open an issue describing the task or feature you want to work on.
+   - Action: Open an issue describing the task or feature you want to work on.
+   - **Check:** Confirm the issue appears in the GitHub Issues list.
 2. **Create a Feature Branch**
-   - Create and switch to a new branch named after the issue (e.g., `issue-1-description`).
+   - Action: Create and switch to a new branch named after the issue (e.g., `issue-1-description`).
+   - **Check:** Run `git branch` and confirm you are on the new branch.
 3. **Make Your Changes**
-   - Edit, add, or remove files as needed to address the issue.
+   - Action: Edit, add, or remove files as needed to address the issue.
+   - **Check:** Use `git status` to confirm the intended files are modified.
 4. **Stage and Commit**
-   - Stage your changes and commit with a descriptive message referencing the issue (e.g., `closes #1`).
+   - Action: Stage your changes and commit with a descriptive message referencing the issue (e.g., `closes #1`).
+   - **Check:** Run `git log -1` to confirm your commit message and files.
 5. **Push the Branch to GitHub**
-   - Push your feature branch to the remote repository.
+   - Action: Push your feature branch to the remote repository.
+   - **Check:** Visit GitHub or run `git branch -r` to confirm the branch is on the remote.
 6. **Open a Pull Request**
-   - Open a pull request from your feature branch to `main`, referencing the issue.
+   - Action: Open a pull request from your feature branch to `main`, referencing the issue.
+   - **Check:** Confirm the PR appears in the GitHub Pull Requests list and is linked to the correct issue and branch.
 7. **Merge After Review**
-   - After review (and resolving any conflicts), merge the pull request into `main`.
+   - Action: After review (and resolving any conflicts), merge the pull request into `main`.
+   - **Check:** Confirm the PR is marked as merged and the changes appear in the `main` branch.
 8. **Clean Up**
-   - Delete the feature branch both locally and remotely after merging.
+   - Action: Delete the feature branch both locally and remotely after merging.
+   - **Check:** Run `git branch` and `git branch -r` to confirm the branch is deleted locally and remotely.
 
 > **Note:** This is the only correct procedure for making changes in this repository. Always follow these steps for every new task or feature.
 
