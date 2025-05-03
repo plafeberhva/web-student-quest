@@ -16,25 +16,28 @@ To ensure consistency and best practices, always follow this procedure when work
 1. **Create a GitHub Issue**
    - Action: Open an issue describing the task or feature you want to work on.
    - **Check:** Confirm the issue appears in the GitHub Issues list.
-2. **Create a Feature Branch**
+2. **Assign the Issue and Add 'Working' Label**
+   - Action: Assign the issue to yourself and add the label 'Working'.
+   - **Check:** Confirm you are assigned and the label 'Working' is present on the issue.
+3. **Create a Feature Branch**
    - Action: Create and switch to a new branch named after the issue (e.g., `issue-1-description`).
    - **Check:** Run `git branch` and confirm you are on the new branch.
-3. **Make Your Changes**
+4. **Make Your Changes**
    - Action: Edit, add, or remove files as needed to address the issue.
    - **Check:** Use `git status` to confirm the intended files are modified.
-4. **Stage and Commit**
+5. **Stage and Commit**
    - Action: Stage your changes and commit with a descriptive message referencing the issue (e.g., `closes #1`).
    - **Check:** Run `git log -1` to confirm your commit message and files.
-5. **Push the Branch to GitHub**
+6. **Push the Branch to GitHub**
    - Action: Push your feature branch to the remote repository.
    - **Check:** Visit GitHub or run `git branch -r` to confirm the branch is on the remote.
-6. **Open a Pull Request**
+7. **Open a Pull Request**
    - Action: Open a pull request from your feature branch to `main`, referencing the issue.
    - **Check:** Confirm the PR appears in the GitHub Pull Requests list and is linked to the correct issue and branch.
-7. **Merge After Review**
+8. **Merge After Review**
    - Action: After review (and resolving any conflicts), merge the pull request into `main`.
    - **Check:** Confirm the PR is marked as merged and the changes appear in the `main` branch.
-8. **Clean Up**
+9. **Clean Up**
    - Action: Delete the feature branch both locally and remotely after merging.
    - **Check:** Run `git branch` and `git branch -r` to confirm the branch is deleted locally and remotely.
 
