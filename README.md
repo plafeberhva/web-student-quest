@@ -1,11 +1,15 @@
 # web-student-quest
 Retro style adventure game, web based in Typescript.
+Maintained through best practice procedures ad documented in this document.
+This project serves as an example to ICT students so they can learn how to properly manage collaborative development environments. Therefor, please make sure to follow the procedure or enhance it. Changes should follow the procedure and be well documented so that they can be audited.
+The goal it to create a fun game in a web based environment. Any improvements are welcome.
 
 ## Attribution
 
 This project uses Cursor rules adapted from [Andre Ratzenberger's cursor-rules repository](https://github.com/AndreRatzenberger/cursor-rules/). Many thanks to Andre for making these comprehensive rules available to the community.
 
 This project's story was generated with the help of the [AI story generator]( https://generatestory.io/ai-game-story-generator/). 
+
 ---
 
 ## Design Decisions
