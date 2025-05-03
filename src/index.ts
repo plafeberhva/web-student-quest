@@ -36,7 +36,7 @@ if (appContainer) {
                 // For now, just echo the input as the response
                 const userInstruction = input.value.trim();
                 const response = `<div><strong>&gt; ${userInstruction}</strong></div><div>Game: You typed "${userInstruction}"</div>`;
-                responseDiv.innerHTML += response + '<hr />';
+                responseDiv.innerHTML = response + '<hr />'; // Reset output field
                 responseDiv.scrollTop = responseDiv.scrollHeight;
                 input.value = '';
             }
