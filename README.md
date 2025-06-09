@@ -14,21 +14,19 @@ This project's story was generated with the help of the [AI story generator]( ht
 
 ## Design Decisions
 
-For alignment between all parties involved, we will need a document containing all design decisions.
-
-Initial decision:
-
-1. Typescript architecture
-2. UI language English, with all strings stored in multi language tables.
-3. All project communication in English.
-4. Open source coding frameworks.
-5. Documentation in markdown, mermaid, svg and any other textual markup languages that can be maintained in Github.
-6. Design is done using UML and BPMN.
-7. Where possible, work is done following ISO standards for quality, software development, risk and security.
-8. Open stack publication.
-9. Testing framework for testing the code, using Mockito.
-10. Project structure using Github issues, with status "working" and "verifying", always maximum one person responsible for each issue.
-11. Issues always small enough so they can be completed in 1-2 days.
+1. MVC (Model-View-Controller) architecture will be used for all code organization.
+2. Object Oriented Programming (OOP) principles will be used throughout the codebase.
+3. Typescript architecture
+4. UI language English, with all strings stored in multi language tables.
+5. All project communication in English.
+6. Open source coding frameworks.
+7. Documentation in markdown, mermaid, svg and any other textual markup languages that can be maintained in Github.
+8. Design is done using UML and BPMN.
+9. Where possible, work is done following ISO standards for quality, software development, risk and security.
+10. Open stack publication.
+11. Testing framework for testing the code, using Mockito.
+12. Project structure using Github issues, with status "working" and "verifying", always maximum one person responsible for each issue.
+13. Issues always small enough so they can be completed in 1-2 days.
 
 ## Required Workflow for Making Changes
 
@@ -116,3 +114,19 @@ Feel free to expand or adjust this list as you learn more!
 - If a task is >8 points, break it down.
 - All types of work (dev, design, docs, testing) are estimated.
 -"Done" means implemented and unit tested, but not necessarily reviewed or deployed.
+
+## GitHub Issue Labels
+
+| Label              | Purpose                                                      |
+|--------------------|--------------------------------------------------------------|
+| bug                | Indicates a problem or defect in the project                 |
+| documentation      | For issues or improvements related to documentation          |
+| duplicate          | Marks issues that are duplicates of existing ones            |
+| enhancement        | Suggests new features or improvements                        |
+| good first issue   | Suitable for newcomers or first-time contributors            |
+| help wanted        | Indicates that help is needed to resolve the issue           |
+| invalid            | Conflicts with rules, design architecture or other issues    |
+| quetion            | Needs to be answered as input for other issue                |
+| verifying          | Results need to be in line with quality standards            |
+| wontfix            | Decision made not to continue with this for other reasons    |
+| working            | Issue is currently assigned to a developer to work on        |
