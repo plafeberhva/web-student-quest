@@ -1,0 +1,11 @@
+id,name,description,location_id
+1,Student ID Card,Nova's student identification card,8
+2,Laptop,Nova's laptop for coursework,8
+3,Coffee Cup,Disposable cup from the coffee corner,4
+4,Keycard,Keycard to access the teachers' office area,4
+5,Notebook,Bo's programming notes,3
+6,Protest Flyer,Charley's environmental protest flyer,2
+7,Restaurant Menu,Menu from the ground floor restaurant,9
+8,Supermarket Receipt,Receipt from the small supermarket,10
+9,Fest Token,Token for a free drink at Fest,11
+10,Secret Note,Clue found in the hidden room,12 
