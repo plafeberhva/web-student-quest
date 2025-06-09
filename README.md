@@ -60,6 +60,9 @@ To ensure consistency and best practices, always follow this procedure when work
 9. **Clean Up**
    - Action: Delete the feature branch both locally and remotely after merging.
    - **Check:** Run `git branch` and `git branch -r` to confirm the branch is deleted locally and remotely.
+10. **Close the Issue**
+   - Action: Close the related GitHub issue to mark the task as complete.
+   - **Check:** Confirm the issue is closed in the GitHub Issues list.
 
 > **Note:** This is the only correct procedure for making changes in this repository. Always follow these steps for every new task or feature.
 
